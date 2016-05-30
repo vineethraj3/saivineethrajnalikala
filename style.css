@@ -1,0 +1,97 @@
+
+body{
+padding: 0px;
+width: 100%;
+height: 100%;
+margin: auto;
+font-family: caliber;
+}
+
+#header{
+width: 100%;
+height: 120px;
+background-color: grey;
+text-align: center;
+}
+
+#wrapper{
+	width: 700px; 
+	height: auto;
+	margin: 0px auto;
+}
+
+#wrapper #main img{
+	width: 700px;
+	height: 300px;
+	border: 1px solid grey;
+	}
+
+#main{
+	height: 300px;
+}
+
+#footer{
+	height: 20px;
+	border: 2px solid grey;
+	text-align: center;
+	font-size: 14px;
+}
+
+#header #nav{
+margin-top: 80px;
+margin-left: 350px;
+}
+
+#header #nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 3px 8px 3px 8px;
+	background-color: #99ff99;
+	font-size: 21px;
+	
+}
+ #header #nav a{
+	 text-decoration: none;
+	 color:black;
+	 
+ }
+
+ #header #nav ul li a:hover{
+	 color: white;
+	 
+	}
+#header #nav a:visited{
+	
+	color: black;
+}
+#header #nav a: active{
+	color: active;
+	
+}
+#header #logo img{
+	margin-top: 20px;
+	margin-left: -800px;
+	
+}
+
+#wrapper #table{
+	width: 700px;
+	height: 200px;
+	table-layout: fixed;
+}
+
+#wrapper #table td{
+	background: #D8D8D8;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px #000;
+	
+	
+}
+#wrapper #table td h3{
+	text-align: center;
+	font-family: caliber;
+	font-size: 18px;
+}
+}
